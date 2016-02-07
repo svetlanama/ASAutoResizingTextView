@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E3806ED1FEEC51337B20876E3DCA6FC /* ASAutoResizingTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B720C000498C2D3AB79678048DE123B /* ASAutoResizingTextView-dummy.m */; };
+		5FF7F348715223BFB21EA13FE06BB769 /* ASAutoResizingTextView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEEE5DB7805000AD35FAE7719465084A /* ASAutoResizingTextView.bundle */; };
+		699AEC019601151D3DF7C79F31D868CC /* ASAutoResizingTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC48C9804DF4728043B6F627888D692 /* ASAutoResizingTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		769BA8720B91A5E2794B7D1BD9A951EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		923013E2CECC84A4BA29D18620609C2E /* Pods-ASAutoResizingTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 594431AC85C7AB6EBC6B9E5C5B2A4294 /* Pods-ASAutoResizingTextView_Tests-dummy.m */; };
+		CA94F10B879FE496246FD165270438AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		DA16D7E66DF7893948D2FB5554901348 /* Pods-ASAutoResizingTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3584614F40A11B2FBEAE15E8004A5463 /* Pods-ASAutoResizingTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF9EBD88FF70D247C1A7F634E7FB9B12 /* ASAutoResizingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8A94102B3256EDCA1BD9B5D3524FB /* ASAutoResizingTextView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		385C5161578169C0D5E0C8C5B2025A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 020C3424BFA486B2D1871D5A16117457;
+			remoteInfo = ASAutoResizingTextView;
+		};
+		A39E55EE629FC78155556D78B88FDD96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CCEF65BFC0FF07C562797C79E3C8D4;
+			remoteInfo = "ASAutoResizingTextView-ASAutoResizingTextView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A752F8A3FB93660CE531ADA5ECBAC90 /* Pods-ASAutoResizingTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ASAutoResizingTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		1B720C000498C2D3AB79678048DE123B /* ASAutoResizingTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASAutoResizingTextView-dummy.m"; sourceTree = "<group>"; };
+		3584614F40A11B2FBEAE15E8004A5463 /* Pods-ASAutoResizingTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASAutoResizingTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41BAF623469F76DBF26B1CBE1B2DF617 /* Pods-ASAutoResizingTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASAutoResizingTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		594431AC85C7AB6EBC6B9E5C5B2A4294 /* Pods-ASAutoResizingTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASAutoResizingTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		5BE8A94102B3256EDCA1BD9B5D3524FB /* ASAutoResizingTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ASAutoResizingTextView.swift; sourceTree = "<group>"; };
+		5D5875427A56BB1D4DC33D9613C7661F /* ASAutoResizingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASAutoResizingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8D2C246BB7D9574C2E69D7E38DAAC1 /* Pods-ASAutoResizingTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASAutoResizingTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64037C198E733E8FB3F2DFECDA59543B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64065A555727DD2D63D9F8BD6A93CE8E /* Pods-ASAutoResizingTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASAutoResizingTextView_Tests-resources.sh"; sourceTree = "<group>"; };
+		647A05D39C351D1B5D844EB99F7F95CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E6BE1B0A8397792D6A8639DEE967500 /* Pods-ASAutoResizingTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASAutoResizingTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DFFB146A9338BC39BBF4B9006DD9E04 /* ASAutoResizingTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ASAutoResizingTextView.modulemap; sourceTree = "<group>"; };
+		81BC0BEDD8B45E2A26FF8B10C9B93D97 /* Pods-ASAutoResizingTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASAutoResizingTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8DC48C9804DF4728043B6F627888D692 /* ASAutoResizingTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASAutoResizingTextView-umbrella.h"; sourceTree = "<group>"; };
+		906A5AF741967742F9C06D33B9104CC6 /* Pods-ASAutoResizingTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASAutoResizingTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A00BD2F2D66F4098A1AEFC0C1377E63F /* ASAutoResizingTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASAutoResizingTextView-prefix.pch"; sourceTree = "<group>"; };
+		AF59EC5F8697F3D0F342938C22AD878A /* Pods_ASAutoResizingTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAutoResizingTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EEEE5DB7805000AD35FAE7719465084A /* ASAutoResizingTextView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASAutoResizingTextView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20B9F39F0BF32F6813D8AFDBDC8D3CA /* ASAutoResizingTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASAutoResizingTextView.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3199379585E706D6E07AE3E73612CB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA94F10B879FE496246FD165270438AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD4D35DF0A487AF7C15D55753A789CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769BA8720B91A5E2794B7D1BD9A951EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA449C41F7B9AA201BDB38F50C87B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E38D2C4BE1BC6F59C0D3701D79E7D50 /* Pods-ASAutoResizingTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				647A05D39C351D1B5D844EB99F7F95CF /* Info.plist */,
+				0A752F8A3FB93660CE531ADA5ECBAC90 /* Pods-ASAutoResizingTextView_Tests.modulemap */,
+				5D8D2C246BB7D9574C2E69D7E38DAAC1 /* Pods-ASAutoResizingTextView_Tests-acknowledgements.markdown */,
+				906A5AF741967742F9C06D33B9104CC6 /* Pods-ASAutoResizingTextView_Tests-acknowledgements.plist */,
+				594431AC85C7AB6EBC6B9E5C5B2A4294 /* Pods-ASAutoResizingTextView_Tests-dummy.m */,
+				81BC0BEDD8B45E2A26FF8B10C9B93D97 /* Pods-ASAutoResizingTextView_Tests-frameworks.sh */,
+				64065A555727DD2D63D9F8BD6A93CE8E /* Pods-ASAutoResizingTextView_Tests-resources.sh */,
+				3584614F40A11B2FBEAE15E8004A5463 /* Pods-ASAutoResizingTextView_Tests-umbrella.h */,
+				6E6BE1B0A8397792D6A8639DEE967500 /* Pods-ASAutoResizingTextView_Tests.debug.xcconfig */,
+				41BAF623469F76DBF26B1CBE1B2DF617 /* Pods-ASAutoResizingTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ASAutoResizingTextView_Tests";
+			path = "Target Support Files/Pods-ASAutoResizingTextView_Tests";
+			sourceTree = "<group>";
+		};
+		61B5770258C0A63B32F1E0D693C653B3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BDB22A8CC3B1956614B3827D9197BF56 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		69DE0C43BA454118228B951290D2DCF0 /* ASAutoResizingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				61B5770258C0A63B32F1E0D693C653B3 /* Pod */,
+				B1B3D23253FA13BD63ED5364C2358F87 /* Support Files */,
+			);
+			name = ASAutoResizingTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				E1AE9D287989E11DFE691271D966B052 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D6A8B4229C3497E5D7836187B4C3B045 /* Products */,
+				98A6A305D8E133CBD9300C652D8DCFF2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98A6A305D8E133CBD9300C652D8DCFF2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E38D2C4BE1BC6F59C0D3701D79E7D50 /* Pods-ASAutoResizingTextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B1B3D23253FA13BD63ED5364C2358F87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DFFB146A9338BC39BBF4B9006DD9E04 /* ASAutoResizingTextView.modulemap */,
+				F20B9F39F0BF32F6813D8AFDBDC8D3CA /* ASAutoResizingTextView.xcconfig */,
+				1B720C000498C2D3AB79678048DE123B /* ASAutoResizingTextView-dummy.m */,
+				A00BD2F2D66F4098A1AEFC0C1377E63F /* ASAutoResizingTextView-prefix.pch */,
+				8DC48C9804DF4728043B6F627888D692 /* ASAutoResizingTextView-umbrella.h */,
+				64037C198E733E8FB3F2DFECDA59543B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ASAutoResizingTextView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDB22A8CC3B1956614B3827D9197BF56 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5BE8A94102B3256EDCA1BD9B5D3524FB /* ASAutoResizingTextView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6A8B4229C3497E5D7836187B4C3B045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE5DB7805000AD35FAE7719465084A /* ASAutoResizingTextView.bundle */,
+				5D5875427A56BB1D4DC33D9613C7661F /* ASAutoResizingTextView.framework */,
+				AF59EC5F8697F3D0F342938C22AD878A /* Pods_ASAutoResizingTextView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1AE9D287989E11DFE691271D966B052 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69DE0C43BA454118228B951290D2DCF0 /* ASAutoResizingTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1974C74649A780259A4DE7987E25059B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA16D7E66DF7893948D2FB5554901348 /* Pods-ASAutoResizingTextView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9110D4FFF9ACAC130F38B33B88C77B54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699AEC019601151D3DF7C79F31D868CC /* ASAutoResizingTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		020C3424BFA486B2D1871D5A16117457 /* ASAutoResizingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99C508C7DD1A33779DBC0B830E00E30 /* Build configuration list for PBXNativeTarget "ASAutoResizingTextView" */;
+			buildPhases = (
+				42C54FBB357D810D492E05E8B4C4FEE4 /* Sources */,
+				3199379585E706D6E07AE3E73612CB81 /* Frameworks */,
+				D41D7F930E32F49AE92744F67154671C /* Resources */,
+				9110D4FFF9ACAC130F38B33B88C77B54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B4CE5CCEEFF7C546138989447A1DF0F /* PBXTargetDependency */,
+			);
+			name = ASAutoResizingTextView;
+			productName = ASAutoResizingTextView;
+			productReference = 5D5875427A56BB1D4DC33D9613C7661F /* ASAutoResizingTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		44CCEF65BFC0FF07C562797C79E3C8D4 /* ASAutoResizingTextView-ASAutoResizingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA193E9C46421727EB3660388D4E03E /* Build configuration list for PBXNativeTarget "ASAutoResizingTextView-ASAutoResizingTextView" */;
+			buildPhases = (
+				404509077554339C7C0D57E17DCA7897 /* Sources */,
+				DAA449C41F7B9AA201BDB38F50C87B19 /* Frameworks */,
+				FDBFDDBAE75B15FF975374F1CAF4F249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASAutoResizingTextView-ASAutoResizingTextView";
+			productName = "ASAutoResizingTextView-ASAutoResizingTextView";
+			productReference = EEEE5DB7805000AD35FAE7719465084A /* ASAutoResizingTextView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		ACF8666780D211EA131818CDFA5873F9 /* Pods-ASAutoResizingTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99075FB74D1AF85D115DDBF5EAF1284 /* Build configuration list for PBXNativeTarget "Pods-ASAutoResizingTextView_Tests" */;
+			buildPhases = (
+				B159A9C9C4208AECA8C0092DD945C477 /* Sources */,
+				3CD4D35DF0A487AF7C15D55753A789CF /* Frameworks */,
+				1974C74649A780259A4DE7987E25059B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92BC05CC70AC0ED7535939E9B600CBA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASAutoResizingTextView_Tests";
+			productName = "Pods-ASAutoResizingTextView_Tests";
+			productReference = AF59EC5F8697F3D0F342938C22AD878A /* Pods_ASAutoResizingTextView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D6A8B4229C3497E5D7836187B4C3B045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				020C3424BFA486B2D1871D5A16117457 /* ASAutoResizingTextView */,
+				44CCEF65BFC0FF07C562797C79E3C8D4 /* ASAutoResizingTextView-ASAutoResizingTextView */,
+				ACF8666780D211EA131818CDFA5873F9 /* Pods-ASAutoResizingTextView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D41D7F930E32F49AE92744F67154671C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF7F348715223BFB21EA13FE06BB769 /* ASAutoResizingTextView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFDDBAE75B15FF975374F1CAF4F249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		404509077554339C7C0D57E17DCA7897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C54FBB357D810D492E05E8B4C4FEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3806ED1FEEC51337B20876E3DCA6FC /* ASAutoResizingTextView-dummy.m in Sources */,
+				EF9EBD88FF70D247C1A7F634E7FB9B12 /* ASAutoResizingTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B159A9C9C4208AECA8C0092DD945C477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923013E2CECC84A4BA29D18620609C2E /* Pods-ASAutoResizingTextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B4CE5CCEEFF7C546138989447A1DF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ASAutoResizingTextView-ASAutoResizingTextView";
+			target = 44CCEF65BFC0FF07C562797C79E3C8D4 /* ASAutoResizingTextView-ASAutoResizingTextView */;
+			targetProxy = A39E55EE629FC78155556D78B88FDD96 /* PBXContainerItemProxy */;
+		};
+		92BC05CC70AC0ED7535939E9B600CBA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASAutoResizingTextView;
+			target = 020C3424BFA486B2D1871D5A16117457 /* ASAutoResizingTextView */;
+			targetProxy = 385C5161578169C0D5E0C8C5B2025A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6040FE70214E401E9704BC8F5CBB0856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BAF623469F76DBF26B1CBE1B2DF617 /* Pods-ASAutoResizingTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASAutoResizingTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASAutoResizingTextView_Tests/Pods-ASAutoResizingTextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASAutoResizingTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7304A5CAF7F4D44A34FFF77DA39854AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20B9F39F0BF32F6813D8AFDBDC8D3CA /* ASAutoResizingTextView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASAutoResizingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		83D668DA92A381FF92FFACE6918600FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20B9F39F0BF32F6813D8AFDBDC8D3CA /* ASAutoResizingTextView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASAutoResizingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		92A63CFFE743FAE41455347E380E3E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20B9F39F0BF32F6813D8AFDBDC8D3CA /* ASAutoResizingTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASAutoResizingTextView/ASAutoResizingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASAutoResizingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASAutoResizingTextView/ASAutoResizingTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ASAutoResizingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A213D4E64198CBDDC0BB295440134616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6BE1B0A8397792D6A8639DEE967500 /* Pods-ASAutoResizingTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASAutoResizingTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASAutoResizingTextView_Tests/Pods-ASAutoResizingTextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASAutoResizingTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2A0ADF8BB3A29755541DED139F6A770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20B9F39F0BF32F6813D8AFDBDC8D3CA /* ASAutoResizingTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASAutoResizingTextView/ASAutoResizingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASAutoResizingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASAutoResizingTextView/ASAutoResizingTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ASAutoResizingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA193E9C46421727EB3660388D4E03E /* Build configuration list for PBXNativeTarget "ASAutoResizingTextView-ASAutoResizingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D668DA92A381FF92FFACE6918600FF /* Debug */,
+				7304A5CAF7F4D44A34FFF77DA39854AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99075FB74D1AF85D115DDBF5EAF1284 /* Build configuration list for PBXNativeTarget "Pods-ASAutoResizingTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A213D4E64198CBDDC0BB295440134616 /* Debug */,
+				6040FE70214E401E9704BC8F5CBB0856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99C508C7DD1A33779DBC0B830E00E30 /* Build configuration list for PBXNativeTarget "ASAutoResizingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A63CFFE743FAE41455347E380E3E8E /* Debug */,
+				C2A0ADF8BB3A29755541DED139F6A770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
