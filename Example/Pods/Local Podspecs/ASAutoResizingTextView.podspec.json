@@ -1,8 +1,8 @@
 {
   "name": "ASAutoResizingTextView",
-  "version": "0.1.0",
-  "summary": "A short description of ASAutoResizingTextView.",
-  "description": "",
+  "version": "0.1.1",
+  "summary": "This is an extension for UITextView.",
+  "description": "This is an extension for UITextView control which makes auto-resize when user makes typing.",
   "homepage": "https://github.com/svetlanama/ASAutoResizingTextView",
   "license": "MIT",
   "authors": {
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/svetlanama/ASAutoResizingTextView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

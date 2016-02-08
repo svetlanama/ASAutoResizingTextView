@@ -1,0 +1,10 @@
+framework module ASAutoResizingTextView {
+  umbrella header "ASAutoResizingTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ASAutoResizingTextView.Swift {
+    header "ASAutoResizingTextView-Swift.h"
+}

@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "40d04b652c865b90e5212161e9c00f5a"
+build_time: [508204694, 244203000]
+inputs:
+  "/Users/svitlana/CocoaPods/ASAutoResizingTextView/Pod/Classes/ASAutoResizingTextView.swift": [508204089, 0]
