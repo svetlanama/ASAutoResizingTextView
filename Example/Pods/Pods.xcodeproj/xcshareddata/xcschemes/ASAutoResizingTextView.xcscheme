@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1483476E93366D00441030CF'
+               BlueprintIdentifier = '1CA340FF3C4CC449438EB270'
                BlueprintName = 'ASAutoResizingTextView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ASAutoResizingTextView.framework'>

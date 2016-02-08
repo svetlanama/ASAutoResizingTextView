@@ -1,5 +1,5 @@
 PODS:
-  - ASAutoResizingTextView (0.1.1)
+  - ASAutoResizingTextView (0.1.2)
 
 DEPENDENCIES:
   - ASAutoResizingTextView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ASAutoResizingTextView: 2016047ec038374a83a3f11ab17bd6391f7a6c19
+  ASAutoResizingTextView: 6f1129ea597ca930e0f344a0766f9f24a3c5ce07
 
 COCOAPODS: 0.39.0
