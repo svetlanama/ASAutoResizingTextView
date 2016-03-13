@@ -45,6 +45,10 @@ Do not forget to create the param sendTextViewHeightConstraint and to connect th
 
 Alexander Vasileyko, vasileyko.alex@gmail.com and Svitlana Moiseyenko, alexandrovna.sveta@gmail.com
 
+## Referring links
+https://github.com/adam-siton/AUIAutoGrowingTextView
+http://www.hanspinckaers.com/multi-line-uitextview-similar-to-sms
+
 ## License
 
 ASAutoResizingTextView is available under the MIT license. See the LICENSE file for more info.
