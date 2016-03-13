@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7E70E90A3A144899B68B3A38 /* Pods_ASAutoResizingTextView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446978416CA2D1126F353D1D /* Pods_ASAutoResizingTextView_Example.framework */; };
 		A307E4AC8111A3903DB90BB4 /* Pods_ASAutoResizingTextView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D07F4A4A69D8FCC0C54EDE /* Pods_ASAutoResizingTextView_Tests.framework */; };
+		EA4F3EFA1C95E204003171F3 /* msg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA4F3EF91C95E204003171F3 /* msg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B30BB8E16AA116CD74A971D8 /* Pods-ASAutoResizingTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAutoResizingTextView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAutoResizingTextView_Example/Pods-ASAutoResizingTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D0CE29D77F84DE2DB2A516FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DD227104C288D5F947963809 /* Pods-ASAutoResizingTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAutoResizingTextView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAutoResizingTextView_Example/Pods-ASAutoResizingTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EA4F3EF91C95E204003171F3 /* msg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = msg.jpg; path = images/msg.jpg; sourceTree = "<group>"; };
 		EED753866779260F48D380BE /* Pods-ASAutoResizingTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAutoResizingTextView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAutoResizingTextView_Tests/Pods-ASAutoResizingTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F008909AC317215496E5969B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				EA4F3EF81C95E1F9003171F3 /* images */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ASAutoResizingTextView */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -157,6 +160,14 @@
 				45F3CBE7211A59E91094736A /* Pods-ASAutoResizingTextView_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA4F3EF81C95E1F9003171F3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EA4F3EF91C95E204003171F3 /* msg.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				EA4F3EFA1C95E204003171F3 /* msg.jpg in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);

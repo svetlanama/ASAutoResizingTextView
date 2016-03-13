@@ -22,6 +22,7 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    view.backgroundColor = UIColor(patternImage: UIImage(named: "msg.jpg")!)
     initSendBar()
   }
   
