@@ -27,7 +27,7 @@ After installation put the `TextView` control on your `ViewController` and in th
 
 ![Alt text](https://github.com/svetlanama/ASAutoResizingTextView/blob/master/Example/images/configuration1.png "Demo")
 
-Do not forget to create the param sendTextViewHeightConstraint and to connect this with the Inspector textViewHeight constrant.
+Do not forget to create the param `sendTextViewHeightConstraint`(call it whatever you want) and to connect this with the constraint in the Inspector `textViewHeight`.
 
 ![Alt text](https://github.com/svetlanama/ASAutoResizingTextView/blob/master/Example/images/configuration2.png "Demo")
 
