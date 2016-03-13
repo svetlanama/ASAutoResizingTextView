@@ -23,7 +23,7 @@ pod "ASAutoResizingTextView"
 ```
 
 
-After installation put the TextView control on your ViewController and in the Inspector choose the ASAutoResizingTextView class for it. 
+After installation put the `TextView` control on your `ViewController` and in the Inspector choose the `ASAutoResizingTextView` class for it. 
 
 ![Alt text](https://github.com/svetlanama/ASAutoResizingTextView/blob/master/Example/images/configuration1.png "Demo")
 
