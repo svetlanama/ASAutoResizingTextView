@@ -44,9 +44,9 @@ You can change the max-height manually directly from the Inspector settings.
 
 ## Author
 
-vasileyko.alex@gmail.com, Alexander Vasileyko, https://github.com/alexnodejs
-and 
-alexandrovna.sveta@gmail.com, Svitlana Moiseyenko, https://github.com/svetlanama 
+vasileyko.alex@gmail.com, Alexander Vasileyko (https://github.com/alexnodejs)
+
+alexandrovna.sveta@gmail.com, Svitlana Moiseyenko (https://github.com/svetlanama)
 
 ## Referring links
 https://github.com/adam-siton/AUIAutoGrowingTextView
