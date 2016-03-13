@@ -16,6 +16,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ASAutoResizingTextView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+After installation put TextView control on your ViewController and in inspector choose the ASAutoResizingTextView class for it. 
+
 ```ruby
 pod "ASAutoResizingTextView"
 ```
