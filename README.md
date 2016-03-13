@@ -23,6 +23,8 @@ pod "ASAutoResizingTextView"
 
 ![Alt text](https://github.com/svetlanama/ASAutoResizingTextView/blob/master/Example/images/animation.gif "Demo")
 
+**You can change the max-height manually directly from settings**
+
 ![Alt text](https://github.com/svetlanama/ASAutoResizingTextView/blob/master/Example/images/demo_max_height.png "Max Height Demo")
 
 
