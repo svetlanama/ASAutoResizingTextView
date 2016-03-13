@@ -44,10 +44,15 @@ You can change the max-height manually directly from the Inspector settings.
 
 ## Author
 
-Alexander Vasileyko, vasileyko.alex@gmail.com and Svitlana Moiseyenko, alexandrovna.sveta@gmail.com
+Alexander Vasileyko, vasileyko.alex@gmail.com 
+https://github.com/alexnodejs
+and 
+Svitlana Moiseyenko, alexandrovna.sveta@gmail.com
+https://github.com/svetlanama 
 
 ## Referring links
 https://github.com/adam-siton/AUIAutoGrowingTextView
+
 http://www.hanspinckaers.com/multi-line-uitextview-similar-to-sms
 
 ## License
