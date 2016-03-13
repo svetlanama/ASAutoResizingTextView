@@ -22,8 +22,15 @@ it, simply add the following line to your Podfile:
 pod "ASAutoResizingTextView"
 ```
 
+
 After installation put the TextView control on your ViewController and in the Inspector choose the ASAutoResizingTextView class for it. 
+
 ![Alt text](https://github.com/svetlanama/ASAutoResizingTextView/blob/master/Example/images/configuration1.png "Demo")
+
+Do not forget to create the param sendTextViewHeightConstraint and to connect this in Inspector.
+
+![Alt text](https://github.com/svetlanama/ASAutoResizingTextView/blob/master/Example/images/configuration2.png "Demo")
+
 
 ## Demo
 
