@@ -21,7 +21,8 @@ pod "ASAutoResizingTextView"
 ```
 ## Demo
 
-https://github.com/svetlanama/ASAutoResizingTextView/blob/master/Example/images/animation.gif
+![Alt text](https://github.com/svetlanama/ASAutoResizingTextView/blob/master/Example/images/animation.gif "Optional title")
+
 
 ## Author
 
