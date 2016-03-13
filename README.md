@@ -19,6 +19,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "ASAutoResizingTextView"
 ```
+## Demo
+
+(https://github.com/svetlanama/ASAutoResizingTextView/blob/master/Example/images/animation.gif)
 
 ## Author
 
