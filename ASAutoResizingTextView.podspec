@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "ASAutoResizingTextView"
-s.version          = "0.1.4"
+s.version          = "0.1.7"
 s.summary          = "This is an extension for UITextView."
 
 # This description is used to generate tags and improve search results.

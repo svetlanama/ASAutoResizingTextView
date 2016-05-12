@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-@objc public protocol ASAutoResizingTextViewDelegate {
+@objc public protocol ASAutoResizingTextViewDelegate: class {
   
   /**
    Delegate method for notifying parent views about size changes
@@ -20,7 +20,7 @@ import UIKit
 
 @objc public class ASAutoResizingTextView: UITextView{
   
-  public var autoresizeTextViewDelegate: ASAutoResizingTextViewDelegate?
+  public weak var autoresizeTextViewDelegate: ASAutoResizingTextViewDelegate?
   var heightConstraint: NSLayoutConstraint?
   
   var minHeight: CGFloat?
