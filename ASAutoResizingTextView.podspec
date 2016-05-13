@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "ASAutoResizingTextView"
-s.version          = "0.1.9"
+s.version          = "0.1.11"
 s.summary          = "This is an extension for UITextView."
 
 # This description is used to generate tags and improve search results.
@@ -23,15 +23,17 @@ s.homepage         = "https://github.com/svetlanama/ASAutoResizingTextView"
 s.license          = 'MIT'
 s.author           = { "Svitlana Moiseyenko" => "alexandrovna.sveta@gmail.com" }
 s.source           = { :git => "https://github.com/svetlanama/ASAutoResizingTextView.git", :tag => s.version.to_s }
+
+
 # s.social_media_url = 'https://twitter.com/svetlana_ma'
 
 s.platform     = :ios, '8.0'
 s.requires_arc = true
 
 s.source_files = 'Pod/Classes/**/*'
-s.resource_bundles = {
-'ASAutoResizingTextView' => ['Pod/Assets/*.png']
-}
+#s.resource_bundles = {
+#'ASAutoResizingTextView' => ['Pod/Assets/*.png']
+#}
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
