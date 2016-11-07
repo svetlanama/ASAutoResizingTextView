@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/svitlana/CocoaPods/ASAutoResizingTextView/Example/build/Debug-iphonesimulator/ASAutoResizingTextView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ASAutoResizingTextView-Swift.h",
+          'external-contents': "/Users/svitlana/CocoaPods/ASAutoResizingTextView/Example/build/Debug-iphonesimulator/ASAutoResizingTextView.framework/Headers/ASAutoResizingTextView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ASAutoResizingTextView-umbrella.h",
+          'external-contents': "/Users/svitlana/CocoaPods/ASAutoResizingTextView/Example/Pods/Target Support Files/ASAutoResizingTextView/ASAutoResizingTextView-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/svitlana/CocoaPods/ASAutoResizingTextView/Example/build/Debug-iphonesimulator/ASAutoResizingTextView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/svitlana/CocoaPods/ASAutoResizingTextView/Example/build/Pods.build/Debug-iphonesimulator/ASAutoResizingTextView.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
