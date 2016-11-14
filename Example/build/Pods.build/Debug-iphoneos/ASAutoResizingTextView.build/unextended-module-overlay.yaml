@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/svitlana/CocoaPods/ASAutoResizingTextView/Example/build/Debug-iphoneos/ASAutoResizingTextView/ASAutoResizingTextView.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/svitlana/CocoaPods/ASAutoResizingTextView/Example/build/Pods.build/Debug-iphoneos/ASAutoResizingTextView.build/unextended-module.modulemap',
+    }]
+  }]
+}

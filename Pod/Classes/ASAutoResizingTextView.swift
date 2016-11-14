@@ -14,12 +14,12 @@ import UIKit
   
 
   // Delegate method for notifying parent views about size changes
-  func didAutolayoutContraintChanged(constantHeight: CGFloat)
+  func didAutolayoutContraintChanged(_ constantHeight: CGFloat)
 }
 
-@objc public class ASAutoResizingTextView: UITextView{
+@objc open class ASAutoResizingTextView: UITextView{
   
-  public weak var autoresizeTextViewDelegate: ASAutoResizingTextViewDelegate?
+  open weak var autoresizeTextViewDelegate: ASAutoResizingTextViewDelegate?
   var heightConstraint: NSLayoutConstraint?
   
   var minHeight: CGFloat?
@@ -50,14 +50,14 @@ import UIKit
   func initConstraints() {
     
     for constraint in constraints {
-      if  constraint.firstAttribute == NSLayoutAttribute.Height  {
+      if  constraint.firstAttribute == NSLayoutAttribute.height  {
         heightConstraint = constraint
         break
       }
     }
   }
   
-  override public func layoutSubviews() {
+  override open func layoutSubviews() {
     super.layoutSubviews()
     
     // Check if there was not height contraint notify user about this
@@ -71,7 +71,7 @@ import UIKit
    */
   func handleLayoutWithAutoLayouts() {
     
-    var internalSize: CGSize = self.intrinsicContentSize()
+    var internalSize: CGSize = self.intrinsicContentSize
     if (minHeight != nil) {
       internalSize.height = max(internalSize.height, minHeight!)
     }
@@ -87,10 +87,10 @@ import UIKit
    
    :returns: CGSize
    */
-  override public func intrinsicContentSize() -> CGSize {
+  override open var intrinsicContentSize : CGSize {
     
     var intrinsicContentSize = self.contentSize
-    if (UIDevice.currentDevice().systemVersion as NSString).floatValue >= 7.0 {
+    if (UIDevice.current.systemVersion as NSString).floatValue >= 7.0 {
       intrinsicContentSize.width += (self.textContainerInset.left + self.textContainerInset.right ) / 2.0
       intrinsicContentSize.height += (self.textContainerInset.top + self.textContainerInset.bottom) / 2.0
     }

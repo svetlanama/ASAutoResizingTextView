@@ -4,17 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ASAutoResizingTextView-ASAutoResizingTextView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>ASAutoResizingTextView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Nimble.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,45 +14,15 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ASAutoResizingTextView_Tests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Quick.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>020C3424BFA486B2D1871D5A16117457</key>
+		<key>8D14B89D2E33A9F7E3B7B079EDFEA122</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0D219DF83B431823C3E0F2E8F1B4BCD2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>242CC3D6715C82671C4A66C26680BC8F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>44CCEF65BFC0FF07C562797C79E3C8D4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>958DC2A87D143B38B66B554E8785DB02</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C5DB5104FED3C10F78978AFC810982B9</key>
+		<key>C0A1B95CE5DB0CC9919C0DA1ECEBCC92</key>
 		<dict>
 			<key>primary</key>
 			<true/>

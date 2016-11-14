@@ -1,20 +1,16 @@
 PODS:
-  - ASAutoResizingTextView (0.1.0)
-  - Nimble (3.0.0)
-  - Quick (0.8.0)
+  - ASAutoResizingTextView (0.1.11)
 
 DEPENDENCIES:
   - ASAutoResizingTextView (from `../`)
-  - Nimble (= 3.0.0)
-  - Quick (~> 0.8.0)
 
 EXTERNAL SOURCES:
   ASAutoResizingTextView:
     :path: ../
 
 SPEC CHECKSUMS:
-  ASAutoResizingTextView: b85c506b5911cf4da7f812fd16a68447875aff91
-  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
-  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+  ASAutoResizingTextView: 30df3b09b02b3a01fdd6db483bafefd8f296c294
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 735da57a4b67f379f246a264ddef60050566d023
+
+COCOAPODS: 1.1.1

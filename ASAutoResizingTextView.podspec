@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "ASAutoResizingTextView"
-s.version          = "0.1.11"
+s.version          = "0.1.12"
 s.summary          = "This is an extension for UITextView."
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ s.source           = { :git => "https://github.com/svetlanama/ASAutoResizingText
 
 # s.social_media_url = 'https://twitter.com/svetlana_ma'
 
-s.platform     = :ios, '8.0'
+s.platform     = :ios, '9.0'
 s.requires_arc = true
 
 s.source_files = 'Pod/Classes/**/*'

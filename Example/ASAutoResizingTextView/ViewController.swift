@@ -27,36 +27,36 @@ class ViewController: UIViewController {
   }
   
   
-  private func initSendBar() {
+  fileprivate func initSendBar() {
     
-    NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillShow:"), name:UIKeyboardWillShowNotification, object: nil);
-    NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillHide:"), name:UIKeyboardWillHideNotification, object: nil);
+    NotificationCenter.default.addObserver(self, selector: #selector(ViewController.keyboardWillShow(_:)), name:NSNotification.Name.UIKeyboardWillShow, object: nil);
+    NotificationCenter.default.addObserver(self, selector: #selector(ViewController.keyboardWillHide(_:)), name:NSNotification.Name.UIKeyboardWillHide, object: nil);
     
     diffConstant = sendBarHeightConstraint.constant - sendTextViewHeightConstraint.constant
     sendTextView.autoresizeTextViewDelegate = self
-    sendButton.addTarget(self, action: "sendMessage:", forControlEvents: UIControlEvents.TouchUpInside)
+    sendButton.addTarget(self, action: #selector(ViewController.sendMessage(_:)), for: UIControlEvents.touchUpInside)
   }
   
   //MARK: Keyboard Delegate
-  func keyboardWillHide(notification: NSNotification) {
+  func keyboardWillHide(_ notification: Notification) {
     guard let _ = notification.userInfo else {
       return
     }
     
-    UIView.animateWithDuration(0.1, animations: { () -> Void in
+    UIView.animate(withDuration: 0.1, animations: { () -> Void in
       self.bottomSpacingConstraint.constant = 0
       self.view.layoutIfNeeded()
     })
   }
   
-  func keyboardWillShow(notification: NSNotification) {
+  func keyboardWillShow(_ notification: Notification) {
     
     guard let userInfo = notification.userInfo else {
       return
     }
     
-    let keyboardSize = (userInfo[UIKeyboardFrameEndUserInfoKey] as! NSValue).CGRectValue()
-    UIView.animateWithDuration(0.1, animations: {
+    let keyboardSize = (userInfo[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+    UIView.animate(withDuration: 0.1, animations: {
       () -> Void in
       
       
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
   }
   
   //MARK: Actions
-  func sendMessage(sender: AnyObject) {
+  func sendMessage(_ sender: AnyObject) {
     
     sendTextView.resignFirstResponder()
     sendTextView.text = ""
@@ -79,7 +79,7 @@ class ViewController: UIViewController {
 
 extension ViewController: ASAutoResizingTextViewDelegate {
   
-  func didAutolayoutContraintChanged(constantHeight: CGFloat) {
+  func didAutolayoutContraintChanged(_ constantHeight: CGFloat) {
     sendBarHeightConstraint.constant = constantHeight + 20
   }
 }
